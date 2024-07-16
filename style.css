@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(247, 108, 57);
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border: 2px solid rgba(245, 224, 217, 0.373);
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    gap: 20px;
+}
+.container .halfBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.container .halfBox .half{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    border: 1px solid  rgba(245, 224, 217, 0.373);
+    border-radius: 3px;
+    background-color: rgba(245, 224, 217, 0.373);
+    padding: 20px 20px;
+}
+.container .fourthBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+    
+}
+.container .fourthBox .fourth{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid  rgba(245, 224, 217, 0.373);
+    border-radius: 3px;
+    padding: 20px 20px;
+    background-color: rgba(245, 224, 217, 0.373);
+}
+.container .thirdBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.container .thirdBox .third{
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid  rgba(245, 224, 217, 0.373);
+    border-radius: 3px;
+    padding: 20px 20px;
+    background-color: rgba(245, 224, 217, 0.373);
+}
+.container .fullBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.container .fullBox .full{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid  rgba(245, 224, 217, 0.373);
+    border-radius: 3px;
+    padding: 20px 20px;
+    background-color: rgba(245, 224, 217, 0.373);
+}
+.container .sixthBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.container .sixthBox .sixth{
+    display: flex;
+    width: 100%;
+    height: 16.67%;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid  rgba(245, 224, 217, 0.373);
+    border-radius: 3px;
+    padding: 20px 20px;
+    background-color: rgba(245, 224, 217, 0.373);
+}
+.container p{
+    color: white;
+}
