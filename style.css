@@ -120,3 +120,64 @@
 .container p{
     color: white;
 }
+/* *************Hover**************** */
+.container .halfBox .half:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    border: 2px solid  rgba(245, 224, 217, 0.373);
+    border-radius: 3px;
+    background-color: rgba(245, 224, 217, 0.373);
+    padding: 20px 20px;
+    box-shadow: -2px 1px 4px 5px rgba(0, 0, 0, 0.288);
+}
+.container .fourthBox .fourth:hover{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid  rgba(245, 224, 217, 0.373);
+    border-radius: 3px;
+    padding: 20px 20px;
+    background-color: rgba(245, 224, 217, 0.373);
+    box-shadow: -2px 1px 4px 5px rgba(0, 0, 0, 0.288);
+}
+.container .thirdBox .third:hover{
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid  rgba(245, 224, 217, 0.373);
+    border-radius: 3px;
+    padding: 20px 20px;
+    background-color: rgba(245, 224, 217, 0.373);
+    box-shadow: -2px 1px 4px 5px rgba(0, 0, 0, 0.288);
+}
+.container .fullBox .full:hover{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid  rgba(245, 224, 217, 0.373);
+    border-radius: 3px;
+    padding: 20px 20px;
+    background-color: rgba(245, 224, 217, 0.373);
+    box-shadow: -2px 1px 4px 5px rgba(0, 0, 0, 0.288);
+}
+.container .sixthBox .sixth:hover{
+    display: flex;
+    width: 100%;
+    height: 16.67%;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid  rgba(245, 224, 217, 0.373);
+    border-radius: 3px;
+    padding: 20px 20px;
+    background-color: rgba(245, 224, 217, 0.373);
+    box-shadow: -2px 1px 4px 5px rgba(0, 0, 0, 0.288);
+}
