@@ -11,7 +11,8 @@
     justify-content: center;
     background: rgb(247, 108, 57);
     align-items: center;
-    width: 50%;
+    /* width: 50%; */
+    width: fit-content;
     height: 100%;
     border: 2px solid rgba(245, 224, 217, 0.373);
     margin: auto;
